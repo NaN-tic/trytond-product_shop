@@ -1,0 +1,11 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.template,shops:"
+msgid "Shops"
+msgstr "Botigues"
+
+msgctxt "help:product.template,shops:"
+msgid "Shops where this product will be available."
+msgstr "Botigues a les que aquest producte estarà disponible."
