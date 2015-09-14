@@ -6,6 +6,42 @@ msgctxt "field:product.template,shops:"
 msgid "Shops"
 msgstr "Tiendas"
 
+msgctxt "field:product.template-sale.shop,create_date:"
+msgid "Create Date"
+msgstr "Fecha creación"
+
+msgctxt "field:product.template-sale.shop,create_uid:"
+msgid "Create User"
+msgstr "Usuario creación"
+
+msgctxt "field:product.template-sale.shop,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:product.template-sale.shop,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:product.template-sale.shop,shop:"
+msgid "Shop"
+msgstr "Tienda"
+
+msgctxt "field:product.template-sale.shop,template:"
+msgid "Template"
+msgstr "Plantilla"
+
+msgctxt "field:product.template-sale.shop,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:product.template-sale.shop,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
 msgctxt "help:product.template,shops:"
 msgid "Shops where this product will be available."
 msgstr "Tiendas en las que este producto estará disponible."
+
+msgctxt "model:product.template-sale.shop,name:"
+msgid "Product - Shop"
+msgstr "Producto - Tienda"
