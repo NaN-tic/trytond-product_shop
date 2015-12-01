@@ -1,24 +1,14 @@
-#!/usr/bin/env python
+# This file is part of the product_shop module for Tryton.
 # The COPYRIGHT file at the top level of this repository contains the full
 # copyright notices and license terms.
-from trytond.tests.test_tryton import test_view, test_depends
-import trytond.tests.test_tryton
 import unittest
+import trytond.tests.test_tryton
+from trytond.tests.test_tryton import ModuleTestCase
 
 
-class ProductShopTestCase(unittest.TestCase):
+class ProductShopTestCase(ModuleTestCase):
     'Test Product Shop module'
-
-    def setUp(self):
-        trytond.tests.test_tryton.install_module('product_shop')
-
-    def test0005views(self):
-        'Test views'
-        test_view('product_shop')
-
-    def test0006depends(self):
-        'Test depends'
-        test_depends()
+    module = 'product_shop'
 
 
 def suite():
