@@ -7,8 +7,7 @@ from trytond.pool import PoolMeta
 __all__ = ['Template', 'TemplateSaleShop']
 
 
-class Template:
-    __metaclass__ = PoolMeta
+class Template(metaclass=PoolMeta):
     __name__ = 'product.template'
     shops = fields.Many2Many('product.template-sale.shop',
             'template', 'shop', 'Shops',
