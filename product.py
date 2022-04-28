@@ -22,3 +22,8 @@ class TemplateSaleShop(ModelSQL):
         ondelete='CASCADE', select=True, required=True)
     shop = fields.Many2One('sale.shop', 'Shop', ondelete='RESTRICT',
         select=True, required=True)
+
+    @classmethod
+    def __setup__(cls):
+        super().__setup__()
+        cls.__access__.add('shop')
