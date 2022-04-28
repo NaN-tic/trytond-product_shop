@@ -4,9 +4,10 @@
 import unittest
 import trytond.tests.test_tryton
 from trytond.tests.test_tryton import ModuleTestCase
+from trytond.modules.company.tests import CompanyTestMixin
 
 
-class ProductShopTestCase(ModuleTestCase):
+class ProductShopTestCase(CompanyTestMixin, ModuleTestCase):
     'Test Product Shop module'
     module = 'product_shop'
 
