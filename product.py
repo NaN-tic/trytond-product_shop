@@ -19,6 +19,6 @@ class TemplateSaleShop(ModelSQL):
     __name__ = 'product.template-sale.shop'
     _table = 'product_template_sale_shop'
     template = fields.Many2One('product.template', 'Template',
-        ondelete='CASCADE', select=True, required=True)
+        ondelete='CASCADE', required=True)
     shop = fields.Many2One('sale.shop', 'Shop', ondelete='RESTRICT',
-        select=True, required=True)
+        required=True)
