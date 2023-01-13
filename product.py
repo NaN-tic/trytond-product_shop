@@ -22,3 +22,7 @@ class TemplateSaleShop(ModelSQL):
         ondelete='CASCADE', required=True)
     shop = fields.Many2One('sale.shop', 'Shop', ondelete='RESTRICT',
         required=True)
+
+
+class Product(metaclass=PoolMeta):
+    __name__ = 'product.product'
